@@ -11,7 +11,7 @@ export PATHNAME="${ROOT}/model/chinese_L-12_H-768_A-12"
 printf "${Cyan}done!!!\n"
 
 printf "${Yellow}Setup python venv environment...\n"
-source ${HOME}/bert-tug/venv/bin/activate
+source ${HOME}/bert-Agus/venv/bin/activate
 printf "${Cyan}done!!!\n"
 printf "${Yellow}Great!!! ${Cyan} Now, everyone is happy! ${RED}(◕ ‿ ◕ )!${NC}\n"
 

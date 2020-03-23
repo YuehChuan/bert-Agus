@@ -1,6 +1,6 @@
 # Use Google BERT to label unstructured text data 
 
-This is the main software repository for the bert-tug.
+This is the main software repository for the bert-Agus.
 
 - For extensive technical documentation, please refer to [BERT](https://github.com/google-research/bert)
 and [bert-as-service](https://bert-as-service.readthedocs.io/en/latest/)
@@ -15,7 +15,7 @@ pass: ubuntu 16.04.2, 18.04
 
 lenove x220 cpu 
 
-git clone https://github.com/YuehChuan/bert-tug.git
+git clone https://github.com/YuehChuan/bert-Agus.git
 
 use python virtual environment venv,
 
@@ -77,7 +77,7 @@ if you have 4 gpu, set **num_worker**
    
 Simply run,
 ```bash=
-cd ~/bert-tug
+cd ~/bert-Agus
 
 source environment.sh
 ```
@@ -113,4 +113,4 @@ input_comment = [
 Notice
 ===
 
-Now, everyone is happy! ${RED}(◕ ‿ ◕ )!
+Now, everyone is happy!(◕ ‿ ◕ )!
