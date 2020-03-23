@@ -1,0 +1,7 @@
+.idea/
+venv/
+__pycache__/
+.gitmodules
+model/
+archive/
+*.log
