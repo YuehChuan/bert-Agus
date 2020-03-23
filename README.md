@@ -9,7 +9,7 @@ paper: https://arxiv.org/pdf/1810.04805.pdf
 
 
 
-##Building
+## Building
 
 pass: ubuntu 16.04.2, 18.04
 
@@ -43,11 +43,9 @@ or just
 pip install -r requirements.txt
 ```
 
-
- ##How to fly
+## How to fly
 
 **Serving bert server**
-
 
 ### a. Download *chinese_L-12_H-768_A-12* 
 
@@ -61,20 +59,21 @@ https://drive.google.com/file/d/18OSCv1kSTwDLvkatktSFmZErhYmrFk2Q/view?usp=shari
    
 
 ### b. **U**nzip chinese_L-12_H-768_A-12 under path 
-   **bert-tug/model/**
 
+**bert-tug/model/**
+
+Modify **PATHNAME** in environment.sh
+
+defaul setting:
    
-   Modify **PATHNAME** in environment.sh
-   defaul setting:
+`export PATHNAME="${ROOT}/model/chinese_L-12_H-768_A-12"`
    
-   `export PATHNAME="${ROOT}/model/chinese_L-12_H-768_A-12"`
+if you have 4 gpu, set **num_worker**
    
-   if you have gpu, set **num_worker**
-   
-   -num_worker=1
+`-num_worker=4`
 
 
-   **terminal 1**
+**terminal 1**
    
 Simply run,
 ```bash=
@@ -87,7 +86,7 @@ source environment.sh
 
 modify label_data.py
 
-**step1. Set **Labels** catogory  加入要標註的類別**
+**step1. Set **Labels** catogory,  加入要標註的類別**
 
 for example:
 
