@@ -60,7 +60,7 @@ https://drive.google.com/file/d/18OSCv1kSTwDLvkatktSFmZErhYmrFk2Q/view?usp=shari
 
 ### b. **U**nzip chinese_L-12_H-768_A-12 under path 
 
-**bert-tug/model/**
+**bert-Agus/model/**
 
 Modify **PATHNAME** in environment.sh
 
